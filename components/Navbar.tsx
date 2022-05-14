@@ -84,7 +84,7 @@ export const NavBar = (props: any) => {
               <Text display="inline" fontSize="4xl"></Text>
             </>
           </MenuItem>
-          <MenuItem to="/docs">
+          <MenuItem to="https://docs.gitsol.xyz">
             <>
               Docs
               <Text display="inline" fontSize="4xl">
