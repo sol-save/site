@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
-import { Box, Flex, Text, Button } from "@chakra-ui/react";
+// import Link from "next/link";
+import { Box, Flex, Text, Button, Link } from "@chakra-ui/react";
 
 const MenuItem = ({ children, isLast, to = "/", ...rest }: any) => {
   return (
@@ -16,7 +16,9 @@ const MenuItem = ({ children, isLast, to = "/", ...rest }: any) => {
       fontFamily="monospace"
       {...rest}
     >
-      <Link href={to}>{children}</Link>
+      <Link _focus={{}} _active={{}} href={to}>
+        {children}
+      </Link>
     </Text>
   );
 };
