@@ -104,7 +104,7 @@ export const NavBar = (props: any) => {
               <Text display="inline" fontSize="4xl"></Text>
             </>
           </MenuItem>
-          <MenuItem to="gitpodlink" isLast>
+          {/* <MenuItem to="gitpodlink" isLast>
             <Button
               size="sm"
               rounded="md"
@@ -120,9 +120,9 @@ export const NavBar = (props: any) => {
               }}
               fontSize="xl"
             >
-              Try it on Gitpod
+              
             </Button>
-          </MenuItem>
+          </MenuItem> */}
         </Flex>
       </Box>
     </Flex>

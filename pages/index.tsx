@@ -6,6 +6,7 @@ import {
   Text,
   useClipboard,
   Image,
+  Link,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import type { NextPage } from "next";
@@ -116,6 +117,27 @@ const Home: NextPage = () => {
         </motion.div>
       </Flex>
       <NavBar />
+      <Flex
+        justify="center"
+        fontFamily="monospace"
+        fontStyle="italic"
+        fontWeight="thin"
+        color="whiteAlpha.800"
+      >
+        {/* <span className="marquee"> */}
+        <Text position="fixed" top={1}>
+          Made with 💚 by{" "}
+          <Link
+            href="
+        https://twitter.com/anoushk77"
+          >
+            @anoushk77
+          </Link>
+          {" & "}
+          <Link href="https://twitter.com/ayshptk">@ayshptk</Link>
+        </Text>
+        {/* </span> */}
+      </Flex>
     </Flex>
   );
 };
