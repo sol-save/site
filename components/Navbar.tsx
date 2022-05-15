@@ -92,7 +92,7 @@ export const NavBar = (props: any) => {
               </Text>
             </>
           </MenuItem>
-          <MenuItem to="/submission">
+          <MenuItem to="https://github.com/sol-save/cli#readme">
             <>
               Submission
               <Text display="inline" fontSize="4xl"></Text>
